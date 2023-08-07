@@ -1,10 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Workload 1"
-  links:
-    - url: "https://www.homeparket.net"
-      title: "Test Link"
-  type: "service"
-  owner: "user:onemoredavide"
-  lifecycle: "experimental"
+  name: test-workload-1
+  description: An example of a Backstage application.
+spec:
+  type: website
+  owner: user:onemoredavide
+  lifecycle: experimental
